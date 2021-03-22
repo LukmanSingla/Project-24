@@ -5,7 +5,7 @@ class Box{
             restitution:1,
             friction:1,
             density:1,
-            isStatic:false
+            isStatic:true
         }
         this.body=Bodies.rectangle(x,y,width,height,options);
         World.add(world,this.body);
