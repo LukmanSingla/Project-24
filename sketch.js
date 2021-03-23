@@ -38,7 +38,7 @@ function draw() {
   ground.display();
   drawSprites();
   if(keyWentDown("up")){
-    Body.applyForce(ball, ball.position, {x:110,y:-60});
+    Body.applyForce(ball, ball.position, {x:120,y:-65});
   }
 }
 
